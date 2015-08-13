@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vandenrobotics.saga.views.CheckableRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/choice_list_background"
+    android:checkable="true">
+
+    <TextView
+        style="?android:textAppearanceListItem"
+        android:id="@+id/eventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/White"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        style="?android:textAppearanceListItemSecondary"
+        android:id="@+id/eventLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eventName"
+        android:gravity="center_vertical"
+        android:textColor="@color/White"
+        android:layout_marginBottom="5dp"/>
+
+</com.vandenrobotics.saga.views.CheckableRelativeLayout>
